@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BioDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BioDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPatternDemo/Singleten/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPatternDemo/Singleten/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPatternDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPatternDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JvmDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NettyDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NettyDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NioDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NioDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
