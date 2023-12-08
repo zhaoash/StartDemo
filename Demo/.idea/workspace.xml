@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97b3a64-758d-4afb-a6d0-ba82093e862c" name="Changes" comment="" />
+    <list default="true" id="f97b3a64-758d-4afb-a6d0-ba82093e862c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUCDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/FutureTask_CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/ThreadImplDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_02_Synchronized/SynchronizedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_202/src.zip!/org/omg/CORBA/ServiceDetailHelper.java" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +53,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Z3c8IoF8GdLXOIB1gBkL98roDr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,12 +64,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Program Files/apache-maven-3.9.6/conf/settings.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
+    "settings.editor.selected.configurable": "preferences.externalResources"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,7 +81,7 @@
       <recent name="C:\Users\01168\IdeaProjects\Demo\NioDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectorServerDemo">
+  <component name="RunManager" selected="Application.SynchronizedDemo">
     <configuration name="BioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo_01_Server_Client.BioClient" />
       <module name="BioDemo" />
@@ -76,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo_02_SockerChannel.ClientDemo" />
-      <module name="NioDemo" />
+    <configuration name="FutureTask_CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo_01_CreateThread.FutureTask_CallableDemo" />
+      <module name="JUCDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo_01_Server_Client.*" />
+          <option name="PATTERN" value="Demo_01_CreateThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo_02_SockerChannel.ServerDemo" />
-      <module name="NioDemo" />
+    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo_02_Synchronized.SynchronizedDemo" />
+      <module name="JUCDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo_01_Server_Client.*" />
+          <option name="PATTERN" value="Demo_02_Synchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,10 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedDemo" />
+        <item itemvalue="Application.FutureTask_CallableDemo" />
         <item itemvalue="Application.SelectorServerDemo" />
         <item itemvalue="Application.SelectorClientDemo" />
-        <item itemvalue="Application.NioClientDemo" />
-        <item itemvalue="Application.NioServerDemo" />
         <item itemvalue="Application.BioClient" />
       </list>
     </recent_temporary>
@@ -252,7 +271,16 @@
           <line>17</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Thread.java</url>
+          <line>749</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

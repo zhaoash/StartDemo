@@ -9,6 +9,7 @@
         <module name="NioDemo" />
         <module name="DesignPattern" />
         <module name="NettyDemo" />
+        <module name="JUCDemo" />
         <module name="JvmDemo" />
         <module name="BioDemo" />
       </profile>
