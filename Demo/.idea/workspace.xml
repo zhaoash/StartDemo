@@ -4,16 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97b3a64-758d-4afb-a6d0-ba82093e862c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUCDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/FutureTask_CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/ThreadImplDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_02_Synchronized/SynchronizedDemo.java" afterDir="false" />
+    <list default="true" id="f97b3a64-758d-4afb-a6d0-ba82093e862c" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_02_Synchronized/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_03_GuardedSuspension/GuardedObjDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_03_GuardedSuspension/JoinWaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Net/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Net/BioDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioDemo/src/main/java/Demo_01_Server_Client/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/BioDemo/src/main/java/Demo_01_Server_Client/BioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioDemo/src/main/java/Demo_01_Server_Client/BioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/BioDemo/src/main/java/Demo_01_Server_Client/BioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/FutureTask_CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_01_CreateThread/FutureTask_CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/RunnableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_01_CreateThread/RunnableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_01_CreateThread/ThreadImplDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/Demo_01_CreateThread/ThreadImplDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUCDemo/src/main/java/Demo_02_Synchronized/SynchronizedDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/src/main/java/classloader/TestClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/src/main/java/classloader/TestClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/src/main/java/classloader/TestClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/src/main/java/classloader/TestClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/src/main/java/classloader/order/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/src/main/java/classloader/order/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JvmDemo/src/main/java/classloader/order/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jvm/src/main/java/classloader/order/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_01_HelloWorld/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_01_HelloWorld/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_01_HelloWorld/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_01_HelloWorld/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_02_EventLoop/EventLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_02_EventLoop/EventLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_03_Channel/ChannelCloseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_03_Channel/ChannelCloseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_03_Channel/ChannelConnectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_03_Channel/ChannelConnectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/JdkFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/JdkFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_05_Handle_Pipline/HandleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_05_Handle_Pipline/HandleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_05_Handle_Pipline/TestHandleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_05_Handle_Pipline/TestHandleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_06_ByteBuf/ByteBufDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_06_ByteBuf/ByteBufDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_06_ByteBuf/ByteBufPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_06_ByteBuf/ByteBufPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_07_ServerAndClient/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_07_ServerAndClient/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_07_ServerAndClient/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_07_ServerAndClient/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_08_Option/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_08_Option/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyDemo/src/main/java/Demo_08_Option/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_08_Option/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_01_FileChannel/FileChannelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_01_FileChannel/FileChannelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_01_FileChannel/testFile" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_01_FileChannel/testFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_02_SockerChannel/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_02_SockerChannel/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_02_SockerChannel/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_02_SockerChannel/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_03_Selector/SelectorClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_03_Selector/SelectorClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/java/Demo_03_Selector/SelectorServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_03_Selector/SelectorServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo/src/main/resources/testFile" beforeDir="false" afterPath="$PROJECT_DIR$/Net/NioDemo/src/main/resources/testFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,34 +97,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Program Files/apache-maven-3.9.6/conf/settings.xml",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.externalResources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/apache-maven-3.9.6/conf/settings.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\01168\IdeaProjects\Demo\Net" />
       <recent name="C:\Users\01168\IdeaProjects\Demo\NioDemo\src\main\java\Demo_01_FileChannel" />
       <recent name="C:\Users\01168\IdeaProjects\Demo\NioDemo" />
       <recent name="C:\Users\01168\IdeaProjects\Demo\NioDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedDemo">
-    <configuration name="BioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo_01_Server_Client.BioClient" />
-      <module name="BioDemo" />
+  <component name="RunManager" selected="Application.JoinWaitDemo">
+    <configuration name="FutureTask_CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo_01_CreateThread.FutureTask_CallableDemo" />
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo_01_Server_Client.*" />
+          <option name="PATTERN" value="Demo_01_CreateThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureTask_CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo_01_CreateThread.FutureTask_CallableDemo" />
-      <module name="JUCDemo" />
+    <configuration name="JoinWaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo_03_GuardedSuspension.JoinWaitDemo" />
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo_01_CreateThread.*" />
+          <option name="PATTERN" value="Demo_03_GuardedSuspension.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,7 +174,7 @@
     </configuration>
     <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo_02_Synchronized.SynchronizedDemo" />
-      <module name="JUCDemo" />
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Demo_02_Synchronized.*" />
@@ -149,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinWaitDemo" />
         <item itemvalue="Application.SynchronizedDemo" />
         <item itemvalue="Application.FutureTask_CallableDemo" />
         <item itemvalue="Application.SelectorServerDemo" />
         <item itemvalue="Application.SelectorClientDemo" />
-        <item itemvalue="Application.BioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -166,38 +204,51 @@
       <option name="presentableId" value="Default" />
       <updated>1701654044819</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1702029089308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702029089308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>8</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>7</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JvmDemo/src/main/java/classloader/ClassLoaderNameSpace.java</url>
+          <url>file://$PROJECT_DIR$/Jvm/src/main/java/classloader/ClassLoaderNameSpace.java</url>
           <line>6</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -212,32 +263,32 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_07_ServerAndClient/ClientDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_07_ServerAndClient/ClientDemo.java</url>
           <line>34</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_07_ServerAndClient/ServerDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_07_ServerAndClient/ServerDemo.java</url>
           <line>22</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
           <line>29</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
           <line>32</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
           <line>13</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_04_Future_Promise/NettyPromiseDemo.java</url>
           <line>11</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -252,7 +303,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NettyDemo/src/main/java/Demo_01_HelloWorld/ServerDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NettyDemo/src/main/java/Demo_01_HelloWorld/ServerDemo.java</url>
           <line>12</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -267,7 +318,7 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NioDemo/src/main/java/Demo_02_SockerChannel/ClientDemo.java</url>
+          <url>file://$PROJECT_DIR$/Net/NioDemo/src/main/java/Demo_02_SockerChannel/ClientDemo.java</url>
           <line>17</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>

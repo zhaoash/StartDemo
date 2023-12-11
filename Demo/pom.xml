@@ -9,12 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>JvmDemo</module>
+        <module>Jvm</module>
         <module>NettyDemo</module>
         <module>DesignPattern</module>
         <module>NioDemo</module>
         <module>BioDemo</module>
-        <module>JUCDemo</module>
+        <module>JUC</module>
+        <module>Net</module>
     </modules>
     <dependencyManagement>
         <dependencies>
