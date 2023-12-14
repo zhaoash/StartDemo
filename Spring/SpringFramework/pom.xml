@@ -3,28 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>Spring</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>Demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>SpringFramework</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>Jvm</module>
-        <module>DesignPattern</module>
-        <module>NioDemo</module>
-        <module>JUC</module>
-        <module>Net</module>
+        <module>XML</module>
     </modules>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>1.2.3</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

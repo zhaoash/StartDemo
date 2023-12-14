@@ -7,31 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jvm" />
+        <module name="NioDemo" />
         <module name="DesignPattern" />
         <module name="JUC" />
         <module name="Net" />
       </profile>
-      <profile name="Annotation profile for NettyDemo" enabled="true">
-        <sourceOutputDir name="../../NettyDemo/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../NettyDemo/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="NettyDemo" />
-      </profile>
-      <profile name="Annotation profile for NioDemo" enabled="true">
-        <sourceOutputDir name="../../NioDemo/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../NioDemo/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="NioDemo" />
-      </profile>
-      <profile name="Annotation profile for Demo" enabled="true">
-        <sourceOutputDir name="../../BioDemo/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../BioDemo/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="BioDemo" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BioDemo" target="1.8" />
       <module name="DesignPatternDemo" target="1.8" />
+      <module name="NettyDemo" target="1.8" />
       <module name="Singleten" target="1.8" />
     </bytecodeTargetLevel>
   </component>

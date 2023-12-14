@@ -5,25 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Demo</artifactId>
+    <artifactId>Start</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>Jvm</module>
-        <module>DesignPattern</module>
-        <module>NioDemo</module>
-        <module>JUC</module>
-        <module>Net</module>
+        <module>NetCode</module>
+        <module>NetCode/Nio</module>
     </modules>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>1.2.3</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 
     <properties>

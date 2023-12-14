@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <beans profile="beanConfig">
+        <!--bean的标签
+            id：id会转化为BeanName，不指定id时全类名会转化为BeanName
+            name：配置Bean的别名，可以指定多个别名，用逗号隔开，BeanFactory中维护了一个aliasMap，在不指定id时，别名的第一个转化为BeanName
+            scope：配置Bean的作用范围，singleton（默认），prototype
+            lazy-init：延迟加载，true：在getBean时才创建bean对象
+            init-method：初始化方法，在实例化bean之后执行，还可以通过实现InitializingBean接口的afterPropertiesSet()方法，且会先于init-method执行，后于属性设置执行
+            destroy-method：销毁方法，在销毁bean之前执行，容器显示的关闭时会销毁bean
+        -->
+        <bean id="beanDemo" class="BeanConfig.BeanDemo" name="beanDemoAlias1,beanDemoAlias2,beanDemoAlias3" scope="singleton" lazy-init="true" init-method="init" destroy-method="destroy"/>
+    </beans>
+
+    <beans profile="createBean">
+        <!--构造器实例bean：无参构造和有参构造-->
+        <bean id="beanDemo1" class="BeanConfig.BeanDemo"/>
+        <bean id="beanDemo2" class="BeanConfig.BeanDemo">
+            <!--constructor-arg指的不是类的构造方法的参数，是构造bean的方法的参数，在静态工厂中理解-->
+            <constructor-arg name="name" value="name"/>
+        </bean>
+        <bean id="beanDemo3" class="BeanConfig.BeanDemo">
+            <constructor-arg name="age" value="11"/>
+        </bean>
+        <bean id="beanDemo4" class="BeanConfig.BeanDemo">
+            <constructor-arg name="name" value="name"/>
+            <constructor-arg name="age" value="11"/>
+        </bean>
+
+        <!--静态工厂方法构造bean-->
+        <bean id="beanDemo5" class="BeanConfig.MyBeanFactory" factory-method="getBeanByStaticNoArg"/>
+        <bean id="beanDemo6" class="BeanConfig.MyBeanFactory" factory-method="getBeanByStaticHasArg">
+            <constructor-arg name="arg" value="has arg"/>
+        </bean>
+
+        <!--实例工厂方法构造bean-->
+        <bean id="myBeanFactory" class="BeanConfig.MyBeanFactory"/>
+        <bean id="beanDemo7" factory-bean="myBeanFactory" factory-method="getBeanByInstanceNoArg"/>
+        <bean id="beanDemo8" factory-bean="myBeanFactory" factory-method="getBeanByInstanceHasArg">
+            <constructor-arg name="arg" value="has arg"/>
+        </bean>
+        <!--实现FactoryBean接口来构造bean，会延迟实例化Bean，特殊点在于在beanFactory的singletonObjects中的key是user4，但是val是myFactory对象，但是getBean时返回的确是User在factoryBeanObjectCache中缓存了key是user4，val是User对象，是在getBean的时候创建的-->
+        <bean id="beanDemo9" class="BeanConfig.MyFactoryBeanImpl"/>
+    </beans>
+
+
+</beans>
