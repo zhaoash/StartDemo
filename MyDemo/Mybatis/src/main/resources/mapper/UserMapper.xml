@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.UserMapper">
+<!--    数据库表的字段名 和 实体类属性名称不一样 则不能自动封装
+        解决办法：
+            1、起别名；
+            2、定义sql片段
+            3、resultMap替换resultType
+-->
+    <sql id="userFiled">
+        id,user_name ad userName
+    </sql>
+    <resultMap id="userMap" type="User">
+        <result column="user_name" property="userName"/>
+    </resultMap>
+    <select id="selectAll" resultType="pojo.User">
+        select * from tb_user
+    </select>
+    <select id="selectAll2" resultType="pojo.User">
+        select <include refid="userFiled"/>
+        from tb_user
+    </select>
+    <select id="selectAll3" resultMap="userMap">
+        select <include refid="userFiled"/>
+        from tb_user
+    </select>
+
+<!--
+参数占位符：
+1. #{}:会替换为？，防止sql注入
+2、${}:直接将参数拼到sql中，在表名，字段名不确定时候可以使用
+
+参数类型：parameterType可以省略
+特殊字符处理：例如where id < 1
+    转移字符
+    CDATA区
+-->
+    <select id="selectById" resultType="pojo.User">
+        select * from tb_user where id = #{id};
+    </select>
+</mapper>

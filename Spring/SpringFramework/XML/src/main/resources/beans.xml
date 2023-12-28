@@ -4,19 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <beans profile="beanConfig">
-        <!--bean的标签
-            id：id会转化为BeanName，不指定id时全类名会转化为BeanName
-            name：配置Bean的别名，可以指定多个别名，用逗号隔开，BeanFactory中维护了一个aliasMap，在不指定id时，别名的第一个转化为BeanName
-            scope：配置Bean的作用范围，singleton（默认），prototype
-            lazy-init：延迟加载，true：在getBean时才创建bean对象
-            init-method：初始化方法，在实例化bean之后执行，还可以通过实现InitializingBean接口的afterPropertiesSet()方法，且会先于init-method执行，后于属性设置执行
-            destroy-method：销毁方法，在销毁bean之前执行，容器显示的关闭时会销毁bean
-            autowire：自动注入，byType按照类型，找到多个类型重复的则会报错，byName按照名字
-        -->
-        <bean id="beanDemo" class="BeanConfig.BeanDemo" name="beanDemoAlias1,beanDemoAlias2,beanDemoAlias3" scope="singleton" lazy-init="true" init-method="init" destroy-method="destroy" />
-    </beans>
-
     <beans profile="createBean">
         <!--构造器实例bean：无参构造和有参构造-->
         <bean id="beanDemo1" class="BeanConfig.BeanDemo"/>

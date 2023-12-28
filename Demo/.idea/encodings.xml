@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BioDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BioDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BioDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BioDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPattern/src/main/resources" charset="UTF-8" />
@@ -13,13 +15,11 @@
     <file url="file://$PROJECT_DIR$/JUC/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Jvm/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Net/BioDemo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Net/BioDemo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Net/NettyDemo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Net/NettyDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Net/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Net/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NettyDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NettyDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NettyDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NettyDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NioDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NioDemo/src/main/resources" charset="UTF-8" />

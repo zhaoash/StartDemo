@@ -8,12 +8,12 @@ import java.nio.channels.FileChannel;
 public class FileChannelDemo {
     public static void main(String[] args) throws IOException {
         try (FileChannel fileChannel = new FileInputStream("C:\\Users\\01168\\IdeaProjects\\Demo\\NioDemo\\src\\main\\resources\\1.txt").getChannel()) {
-            IntBuffer intBuffer = IntBuffer.allocate(1000);
-            fileChannel..read(intBuffer);
-            intBuffer.flip();
-            while (intBuffer.hasRemaining()){
+            ByteBuffer byteBuffer = ByteBuffer.allocate(1000);
+            fileChannel.read(byteBuffer);
+            byteBuffer.flip();
+            while (byteBuffer.hasRemaining()){
 
-                System.out.println(intBuffer);
+                System.out.println(byteBuffer);
 
             }
 
